@@ -51,6 +51,7 @@ def basic_operation():
             # print('[div]', my_sess.run(div, feed_dict={p1: partial_val}))
             print('[div]', div.eval(session=my_sess, feed_dict={p1: partial_val}))
 
+
 def load_from_remote():
     return [-x for x in range(1000)]
 
