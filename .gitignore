@@ -27,3 +27,4 @@
 *.7z
 *.pyc
 .mypy_cache/*
+.DS_Store
