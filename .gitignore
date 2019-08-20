@@ -28,3 +28,4 @@
 *.pyc
 .mypy_cache/*
 .DS_Store
+Pipfile.lock
