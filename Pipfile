@@ -1,12 +1,17 @@
 [[source]]
-name = "pypi"
-url = "https://pypi.org/simple"
+name = "douban"
+url = "https://pypi.doubanio.com/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
 pytest = "*"
+tensorflow = "*"
+requests = "*"
+numpy = "*"
+tensorflow-gpu = "*"
 
 [requires]
 python_version = "3.7"
