@@ -12,6 +12,7 @@ tensorflow = "*"
 requests = "*"
 numpy = "*"
 tensorflow-gpu = "*"
+jieba = "*"
 
 [requires]
 python_version = "3.7"
